@@ -1,0 +1,61 @@
+Source,Feature name,Description,"bands (g, r, or multiband)",# of features,Reference
+ALeRCE,Amplitude,Half of the difference between the median of the maximum 5% and of the minimum 5% magnitudes,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,AndersonDarling,Test of whether a sample of data comes from a population with a specific distribution (in this case a normal distribution),g and r,1,https://ui.adsabs.harvard.edu/abs/2015arXiv150600010N/abstract
+ALeRCE,Autocor_length,Lag value where the auto-correlation function becomes smaller than Eta_e,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...735...68K/abstract
+ALeRCE,Beyond1Std,Percentage of points with photometric mag that lie beyond 1 sigma from the mean,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,Con,Number of three consecutive data points brighter/fainter than 2 sigma of the light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...735...68K/abstract
+ALeRCE,delta_period,Absolute value of the difference between the Multiband_period and the MHAOV period obtained using a single band,g and r,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,Eta_e,Ratio of the mean of the squares of successive mag differences to the variance of the light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2014A%2526A...566A..43K/abstract
+ALeRCE,ExcessVar,Measure of the intrinsic variability amplitude [(Std - average photometric error)/Mean],g and r,1,https://ui.adsabs.harvard.edu/abs/2013ApJ...771....9A/abstract
+ALeRCE,GP_DRW_sigma,"Amplitude of the variability at short timescales (t << tau), from DRW modeling",g and r,1,https://ui.adsabs.harvard.edu/abs/2017MNRAS.470.4112G/abstract
+ALeRCE,GP_DRW_tau,Relaxation time (tau) from DRW modeling,g and r,1,https://ui.adsabs.harvard.edu/abs/2017MNRAS.470.4112G/abstract
+ALeRCE,Gskew,Median-based measure of the skew,g and r,1,https://ui.adsabs.harvard.edu/abs/2015arXiv150600010N/abstract
+ALeRCE,Harmonics_mag_1,Amplitude of the 1st component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mag_2,Amplitude of the 2nd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mag_3,Amplitude of the 3rd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mag_4,Amplitude of the 4th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mag_5,Amplitude of the 5th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mag_6,Amplitude of the 6th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mag_7,Amplitude of the 7th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_mse,Mean squarre error of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_phase_2,Phase of the 2nd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_phase_3,Phase of the 3rd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_phase_4,Phase of the 4th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_phase_5,Phase of the 5th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_phase_6,Phase of the 6th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,Harmonics_phase_7,Phase of the 7th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),g and r,1,https://ui.adsabs.harvard.edu/abs/1986ApJ...306..183S/abstract
+ALeRCE,IAR_phi,Level of autocorrelation using a discrete-time representation of a DRW model,g and r,1,https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.4311E/abstract
+ALeRCE,LinearTrend,Slope of a linear fit to the light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,MaxSlope,Maximum absolute magnitude slope between two consecutive observations,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,Mean,Mean lc_corr magnitude (or mean lc_diff if the source cannot be corrected),g and r,1,
+ALeRCE,Meanvariance,Ratio of the standard deviation to the mean magnitude,g and r,1,https://ui.adsabs.harvard.edu/abs/2015arXiv150600010N/abstract
+ALeRCE,MedianAbsDev,Median discrepancy of the data from the median data,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,MedianBRP,Fraction of photometric points within amplitude/10 of the median mag,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,MHPS_high,Variance associated with a 10 day timescale obtained from a MHPS analysis,g and r,1,https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1793A/abstract
+ALeRCE,MHPS_low,Variance associated with a 100 day timescale obtained from a MHPS analysis,g and r,1,https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1793A/abstract
+ALeRCE,MHPS_PN_flag,Flag that reports whether the Poisson Noise is higher than the MHPS_high variance,g and r,1,https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1793A/abstract
+ALeRCE,MHPS_ratio,Ratio between the MHPS_low and MHPS_high variances for a given band,g and r,1,https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1793A/abstract
+ALeRCE,PairSlopeTrend,Fraction of increasing first differences minus fraction of decreasing first differences over the last 30 time-sorted mag measures,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,PercentAmplitude,Largest percentage difference between either max or min mag and median mag,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,Period_band,Single band period computed using a Multi Harmonic Analysis of Variance (MHAOV) periodogram,g and r,1,https://ui.adsabs.harvard.edu/abs/2018ApJS..236...12H/abstract
+ALeRCE,Psi_CS,Range of a cumulative sum applied to the phase-folded light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...735...68K/abstract
+ALeRCE,Psi_eta,Eta_e index calculated from the folded light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2014A%2526A...566A..43K/abstract
+ALeRCE,Pvar,Probability that the source is intrinsically variable,g and r,1,https://ui.adsabs.harvard.edu/abs/1996ApJ...473..763M/abstract
+ALeRCE,Q31,Difference between the 3rd and the 1st quartile of the light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2014A%2526A...566A..43K/abstract
+ALeRCE,Rcs,Range of a cumulative sum,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...735...68K/abstract
+ALeRCE,SF_ML_amplitude,"Rms magnitude difference of the structure function, computed over a 1 yr timescale",g and r,1,https://ui.adsabs.harvard.edu/abs/2010ApJ...714.1194S/abstract
+ALeRCE,SF_ML_gamma,Logarithmic gradient of the mean change in magnitude (computed from the structure function),g and r,1,https://ui.adsabs.harvard.edu/abs/2010ApJ...714.1194S/abstract
+ALeRCE,Skew,Skewness measure,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,SmallKurtosis,Small sample kurtosis of the magnitudes,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...733...10R/abstract
+ALeRCE,Std,Standard deviation of the light curve,g and r,1,https://ui.adsabs.harvard.edu/abs/2015arXiv150600010N/abstract
+ALeRCE,StetsonK,Robust kurtosis measure,g and r,1,https://ui.adsabs.harvard.edu/abs/2011ApJ...735...68K/abstract
+EXTRA?,MHPS_non_zero,???,g and r,1,
+EXTRA?,iqr,Interquartile-range - REDUNDANT,g and r,1,
+ALeRCE,Multiband_period,Period obtained using the multiband MHAOV periodogram,multiband,1,https://ui.adsabs.harvard.edu/abs/2015ApJ...811L..34M/abstract
+ALeRCE,Power_rate_1/2,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/2,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,Power_rate_1/3,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/3,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,Power_rate_1/4,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/4,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,Power_rate_2,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 2*P,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,Power_rate_3,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 3*P,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,Power_rate_4,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 4*P,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract
+ALeRCE,PPE,Multiband Periodogram Pseudo Entropy,multiband,1,https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract

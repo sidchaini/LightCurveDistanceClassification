@@ -1,0 +1,61 @@
+Feature name,KEEP?,Reason,Description,Source,"bands (g, r, or multiband)"
+Amplitude,YES,Because different classes have different amplitude (i.e amount of variability),Half of the difference between the median of the maximum 5% and of the minimum 5% magnitudes,ALeRCE,g and r
+AndersonDarling,YES,Different classes may have light curves that come from some distribution ,Test of whether a sample of data comes from a population with a specific distribution (in this case a normal distribution),ALeRCE,g and r
+Autocor_length,YES,Because the autocorrelation can be different for different classes (differs stochastic),Lag value where the auto-correlation function becomes smaller than Eta_e,ALeRCE,g and r
+Beyond1Std,YES,Because this tells us how many points suddenly increase in brightness,Percentage of points with photometric mag that lie beyond 1 sigma from the mean,ALeRCE,g and r
+Con,NO,"Irregular time series, so number of points bad idea",Number of three consecutive data points brighter/fainter than 2 sigma of the light curve,ALeRCE,g and r
+delta_period,NO,"Just tells us about different fits, nothing about the object",Absolute value of the difference between the Multiband_period and the MHAOV period obtained using a single band,ALeRCE,g and r
+Eta_e,YES,Measures trend of lightcurve degree of variabality - useful for long term variation (PG 14 Ref),Ratio of the mean of the squares of successive mag differences to the variance of the light curve,ALeRCE,g and r
+ExcessVar,YES,Measures intrinsic variability,Measure of the intrinsic variability amplitude [(Std - average photometric error)/Mean],ALeRCE,g and r
+GP_DRW_sigma,YES,Measures variability at short timescales,"Amplitude of the variability at short timescales (t << tau), from DRW modeling",ALeRCE,g and r
+GP_DRW_tau,YES,Measures timescale of variability,Relaxation time (tau) from DRW modeling,ALeRCE,g and r
+  tc,YES,Tells about skew (shape),Median-based measure of the skew,ALeRCE,g and r
+Harmonics_mag_1,YES,Harmonic series tells us if it has a single/multiple periods/irregular variability,Amplitude of the 1st component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mag_2,YES,"Higher harmonic components may represent shorter-period variability, or more complex variability patterns that are not captured by the lower-order components",Amplitude of the 2nd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mag_3,YES,,Amplitude of the 3rd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mag_4,YES,,Amplitude of the 4th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mag_5,YES,,Amplitude of the 5th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mag_6,YES,,Amplitude of the 6th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mag_7,YES,,Amplitude of the 7th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_mse,NO,Error of fit not important,Mean squarre error of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_phase_2,YES,Serves as a timescale for highest harmonic fit,Phase of the 2nd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_phase_3,YES,,Phase of the 3rd component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_phase_4,YES,,Phase of the 4th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_phase_5,YES,,Phase of the 5th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_phase_6,YES,,Phase of the 6th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+Harmonics_phase_7,YES,,Phase of the 7th component of the harmonics series (obtained by fitting a harmonic series up to the seventh harmonic),ALeRCE,g and r
+IAR_phi,YES,Because the autocorrelation can be different for different classes (differs stochastic),Level of autocorrelation using a discrete-time representation of a DRW model,ALeRCE,g and r
+LinearTrend,YES,Tells us about shape (linearity) of light curve,Slope of a linear fit to the light curve,ALeRCE,g and r
+MaxSlope,NO,Depends on number of points.,Maximum absolute magnitude slope between two consecutive observations,ALeRCE,g and r
+Mean,YES,Brightness for different stars can be different,Mean lc_corr magnitude (or mean lc_diff if the source cannot be corrected),ALeRCE,g and r
+Meanvariance,YES,Tells us about how much the light curve varies,Ratio of the standard deviation to the mean magnitude,ALeRCE,g and r
+MedianAbsDev,YES,Tells us about how much the light curve varies,Median discrepancy of the data from the median data,ALeRCE,g and r
+MedianBRP,YES,Tells us about degree of variability,Percentage of fluxes within 20% of the amplitude from the median - fraction of photometric points within amplitude/10 of the median mag (median buffer range percentage),ALeRCE,g and r
+MHPS_high,YES,Looks at structures of timescales ~10 days,Variance associated with a 10 day timescale obtained from a MHPS analysis,ALeRCE,g and r
+MHPS_low,YES,Looks at structures of timescales ~100 days,Variance associated with a 100 day timescale obtained from a MHPS analysis,ALeRCE,g and r
+MHPS_PN_flag,NO,A flag shouldn't matter physically,Flag that reports whether the Poisson Noise is higher than the MHPS_high variance,ALeRCE,g and r
+MHPS_ratio,YES,The logarithm of MHPS_ratio is therefore an estimate of the power law slope of the power spectrum of the light curve,Ratio between the MHPS_low and MHPS_high variances for a given band,ALeRCE,g and r
+PairSlopeTrend,NO,Not a good measure for irregular time series,Fraction of increasing first differences minus fraction of decreasing first differences over the last 30 time-sorted mag measures,ALeRCE,g and r
+PercentAmplitude,YES,Gives a range of variability,Largest percentage difference between either max or min mag and median mag,ALeRCE,g and r
+Period_band,YES,Characteristic of variable,Single band period computed using a Multi Harmonic Analysis of Variance (MHAOV) periodogram,ALeRCE,g and r
+Psi_CS,YES,Time-folding gives better values for periodic,Range of a cumulative sum applied to the phase-folded light curve,ALeRCE,g and r
+Psi_eta,YES,Time-folding gives better values for periodic,Eta_e index calculated from the folded light curve,ALeRCE,g and r
+Pvar,YES,Tells about variability,Probability that the source is intrinsically variable,ALeRCE,g and r
+Q31,YES,Tells about shape,Difference between the 3rd and the 1st quartile of the light curve,ALeRCE,g and r
+Rcs,YES,Tells about periodicity,Range of a cumulative sum,ALeRCE,g and r
+SF_ML_amplitude,YES,Structure function is a measure of variability,"Rms magnitude difference of the structure function, computed over a 1 yr timescale",ALeRCE,g and r
+SF_ML_gamma,YES,Structure function is a measure of variability,Logarithmic gradient of the mean change in magnitude (computed from the structure function),ALeRCE,g and r
+Skew,YES,Tells us about shape of light curve,Skewness measure,ALeRCE,g and r
+SmallKurtosis,YES,variability index derived based on the autocorrelation function,Small sample kurtosis of the magnitudes,ALeRCE,g and r
+Std,YES,Tells about variability,Standard deviation of the light curve,ALeRCE,g and r
+StetsonK,YES,variability index derived based on the autocorrelation function,Robust kurtosis measure,ALeRCE,g and r
+MHPS_non_zero,NO,of each light curve,???,EXTRA?,g and r
+iqr,NO,REDUNDANT,Interquartile-range - REDUNDANT,EXTRA?,g and r
+Multiband_period,NO,Already using period_r,Period obtained using the multiband MHAOV periodogram,ALeRCE,multiband
+Power_rate_1/2,NO,A measure of periodogram value,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/2,ALeRCE,multiband
+Power_rate_1/3,NO,A measure of periodogram value,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/3,ALeRCE,multiband
+Power_rate_1/4,NO,A measure of periodogram value,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for P/4,ALeRCE,multiband
+Power_rate_2,NO,A measure of periodogram value,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 2*P,ALeRCE,multiband
+Power_rate_3,NO,A measure of periodogram value,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 3*P,ALeRCE,multiband
+Power_rate_4,NO,A measure of periodogram value,Ratio between the power of the multiband periodogram obtained for the best period candidate (P) and for 4*P,ALeRCE,multiband
+PPE,NO,A confidence measure for period,Multiband Periodogram Pseudo Entropy,ALeRCE,multiband
