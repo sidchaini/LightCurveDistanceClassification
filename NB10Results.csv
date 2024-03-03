@@ -9,3 +9,173 @@
 7,Euclidean,8,0.8726202718249009,0.8696236559139785,1,['Period_band_r'],0.8321647606219453
 8,Euclidean,9,0.8237916536737531,0.8221326164874552,1,['Period_band_r'],0.7774181457761106
 9,Euclidean,10,0.8184854382340189,0.8136200716845878,1,['Period_band_r'],0.7675093990432783
+10,Braycurtis,1,0.9292781708985414,0.928763440860215,1,['Period_band_r'],0.9057874612481286
+11,Braycurtis,2,0.9273177900135724,0.9269713261648745,1,['Period_band_r'],0.9041447740999805
+12,Braycurtis,3,0.9264995029311117,0.9260752688172043,1,['Period_band_r'],0.9031323630648704
+13,Braycurtis,4,0.9246024263685018,0.9242831541218638,1,['Period_band_r'],0.9002465843437493
+14,Braycurtis,5,0.9259603705533386,0.9256272401433692,1,['Period_band_r'],0.9018876637912351
+15,Braycurtis,6,0.9181315220494305,0.9175627240143369,1,['Period_band_r'],0.8915166532511984
+16,Braycurtis,7,0.928199558004084,0.9278673835125448,1,['Period_band_r'],0.9050542931798593
+17,Braycurtis,8,0.9278630820258235,0.9274193548387096,1,['Period_band_r'],0.9045915806695293
+18,Braycurtis,9,0.9286900010056116,0.9283154121863799,1,['Period_band_r'],0.9055355943874556
+19,Braycurtis,10,0.9260050164051291,0.9256272401433692,1,['Period_band_r'],0.9020643352427031
+20,Canberra,1,0.9347201930327845,0.9345878136200717,2,"['Period_band_r', 'Harmonics_mag_1_r']",0.914044243282214
+21,Canberra,2,0.9309841720979032,0.9305555555555556,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9089015099668244
+22,Canberra,3,0.9410797694976303,0.9408602150537635,2,"['Period_band_r', 'Harmonics_mag_1_r']",0.9221037667822073
+23,Canberra,4,0.9376650315153106,0.9377240143369175,3,"['Period_band_r', 'Harmonics_mag_1_r', 'Harmonics_phase_2_r']",0.9181475961648429
+24,Canberra,5,0.9217735049698033,0.921146953405018,1,['Period_band_r'],0.896576833958867
+25,Canberra,6,0.9338847498068323,0.9336917562724014,2,"['Period_band_r', 'Harmonics_mag_1_r']",0.9123455468370086
+26,Canberra,7,0.9241424626279002,0.9238351254480287,1,['Period_band_r'],0.8997044299200853
+27,Canberra,8,0.9325550476152132,0.932347670250896,1,['Period_band_r'],0.9110982535827759
+28,Canberra,9,0.9355041644316556,0.9350358422939068,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9149916996046865
+29,Canberra,10,0.9315018136531756,0.9310035842293907,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9096679353782198
+30,Cityblock,1,0.8831916971737648,0.8817204301075269,4,"['MHPS_ratio_r', 'Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']",0.8495515230900137
+31,Cityblock,2,0.8483999715101705,0.8472222222222222,6,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_phase_2_r', 'Harmonics_phase_6_r', 'IAR_phi_r']",0.8063174209921457
+32,Cityblock,3,0.8748270121565296,0.871415770609319,7,"['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'GP_DRW_tau_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'IAR_phi_r']",0.8370306065263827
+33,Cityblock,4,0.8611737239312259,0.8588709677419355,1,['Period_band_r'],0.8171795893444328
+34,Cityblock,5,0.8865338403234686,0.8862007168458781,3,"['MHPS_ratio_r', 'Period_band_r', 'IAR_phi_r']",0.8512819995547005
+35,Cityblock,6,0.8835946224622636,0.8826164874551972,2,"['Period_band_r', 'IAR_phi_r']",0.8490344869589561
+36,Cityblock,7,0.8823942954814897,0.8817204301075269,3,"['MHPS_ratio_r', 'Period_band_r', 'IAR_phi_r']",0.8465970021212769
+37,Cityblock,8,0.8672183150564127,0.8664874551971327,3,"['Period_band_r', 'Harmonics_mag_7_r', 'IAR_phi_r']",0.8263046011382528
+38,Cityblock,9,0.8720181031951904,0.8700716845878136,1,['Period_band_r'],0.8306114756844746
+39,Cityblock,10,0.8492085021731282,0.8458781362007168,2,"['Period_band_r', 'SmallKurtosis_r']",0.8017238121951606
+40,Chebyshev,1,0.7791566429172769,0.7818100358422939,1,['Period_band_r'],0.7306719330934569
+41,Chebyshev,2,0.8345864178657479,0.8297491039426523,1,['Period_band_r'],0.7883051729762752
+42,Chebyshev,3,0.8177057813303449,0.818100358422939,1,['Period_band_r'],0.7682740782279
+43,Chebyshev,4,0.8435745669696121,0.8418458781362007,1,['Period_band_r'],0.7971151814090113
+44,Chebyshev,5,0.8252957027955059,0.8216845878136201,1,['Period_band_r'],0.775115156784008
+45,Chebyshev,6,0.8484449463162335,0.8472222222222222,1,['Period_band_r'],0.8038602303994811
+46,Chebyshev,7,0.8186397439744445,0.8154121863799283,1,['Period_band_r'],0.7698032590203738
+47,Chebyshev,8,0.8157317394133595,0.806899641577061,2,"['Period_band_r', 'Psi_eta_r']",0.7575377531764877
+48,Chebyshev,9,0.8134486358984172,0.8109318996415771,2,"['Period_band_r', 'Psi_eta_r']",0.7563682451374556
+49,Chebyshev,10,0.865617772063687,0.8615591397849462,1,['Period_band_r'],0.8227115032922393
+50,Clark,1,0.919057663914852,0.9189068100358423,1,['Period_band_r'],0.8930642246351725
+51,Clark,2,0.9256308930507539,0.9251792114695341,1,['Period_band_r'],0.9015343802977102
+52,Clark,3,0.9279109955386946,0.9274193548387096,1,['Period_band_r'],0.9044129054059314
+53,Clark,4,0.9275933927364479,0.9274193548387096,2,"['Period_band_r', 'Harmonics_mag_1_r']",0.9043265189405673
+54,Clark,5,0.9406345135636551,0.9404121863799283,3,"['Period_band_r', 'Harmonics_mag_1_r', 'Rcs_r']",0.9214014976266206
+55,Clark,6,0.9262267863964196,0.9260752688172043,2,"['Period_band_r', 'Harmonics_mag_1_r']",0.9027664632007913
+56,Clark,7,0.9352262311589334,0.9350358422939068,2,"['Period_band_r', 'Harmonics_mag_1_r']",0.914189636625902
+57,Clark,8,0.9247287097888168,0.9242831541218638,1,['Period_band_r'],0.9005634715186578
+58,Clark,9,0.9230730582102715,0.9224910394265233,1,['Period_band_r'],0.8980136911990844
+59,Clark,10,0.9317291746749439,0.9314516129032258,1,['Period_band_r'],0.9098202420235423
+60,Correlation,1,0.8129541067251818,0.8113799283154122,20,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_5_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.7533357865268657
+61,Correlation,2,0.8230303550945209,0.8221326164874552,20,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.7636829783968256
+62,Correlation,3,0.8299921978388367,0.8293010752688172,20,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.7793788003654678
+63,Correlation,4,0.8047906718392449,0.8010752688172043,11,"['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Amplitude_r', 'Beyond1Std_r', 'Gskew_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.7385058133797775
+64,Correlation,5,0.8259999923465122,0.8248207885304659,21,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'Rcs_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.767971432881757
+65,Correlation,6,0.8434267301556959,0.842741935483871,12,"['MHPS_ratio_r', 'MHPS_high_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_phase_2_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Mean_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.7909869607634891
+66,Correlation,7,0.796893904770553,0.7948028673835126,20,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.728962749586394
+67,Correlation,8,0.8158188362175975,0.8127240143369175,21,"['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.756398572224205
+68,Correlation,9,0.8369008548186799,0.8355734767025089,25,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r']",0.7818612837738744
+69,Correlation,10,0.8492407240478237,0.8485663082437276,13,"['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Rcs_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.7994647708215377
+70,Cosine,1,0.8630908364742478,0.8629032258064516,11,"['MHPS_high_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_phase_5_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.8188744940549137
+71,Cosine,2,0.8326238450417414,0.8310931899641577,21,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.7783946074109819
+72,Cosine,3,0.8415321324134246,0.8400537634408602,20,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.7900952324173832
+73,Cosine,4,0.834532577918988,0.8337813620071685,12,"['MHPS_low_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'SmallKurtosis_r', 'IAR_phi_r', 'LinearTrend_r']",0.7807447792038109
+74,Cosine,5,0.8496854524674072,0.8490143369175627,12,"['MHPS_high_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_phase_3_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.8018655394678372
+75,Cosine,6,0.8182633995132005,0.8163082437275986,7,"['Period_band_r', 'Psi_eta_r', 'Harmonics_phase_4_r', 'Amplitude_r', 'Beyond1Std_r', 'Gskew_r', 'IAR_phi_r']",0.7584009935059522
+76,Cosine,7,0.8440326445099027,0.8431899641577061,17,"['MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.7926331370795904
+77,Cosine,8,0.8152077679840075,0.8136200716845878,16,"['MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r']",0.7530617032559088
+78,Cosine,9,0.8444725281978391,0.842741935483871,17,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r']",0.7953357729620628
+79,Cosine,10,0.8309690695086209,0.8297491039426523,19,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Beyond1Std_r', 'Gskew_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r']",0.7741626745407646
+80,Hellinger,1,0.9327395019513663,0.932347670250896,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9099983331208074
+81,Hellinger,2,0.9414367199726644,0.9413082437275986,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9217818249400077
+82,Hellinger,3,0.9489446592212734,0.9489247311827957,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9319018863043141
+83,Hellinger,4,0.9489506053546157,0.9489247311827957,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9320515713851985
+84,Hellinger,5,0.9507760461326757,0.9507168458781362,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9344694680784696
+85,Hellinger,6,0.9468254617637976,0.9466845878136201,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9289562942297831
+86,Hellinger,7,0.9393598636040514,0.9390681003584229,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9189667960498091
+87,Hellinger,8,0.9296846011131725,0.9292114695340502,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9060069879754598
+88,Hellinger,9,0.9539250476611028,0.953853046594982,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9385654349416286
+89,Hellinger,10,0.9445588312566257,0.9444444444444444,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9264045786860756
+90,Jaccard,1,0.9268431680341636,0.9265232974910395,1,['Period_band_r'],0.9035320837018422
+91,Jaccard,2,0.92301198808638,0.9224910394265233,1,['Period_band_r'],0.8979946470299904
+92,Jaccard,3,0.9269278768303761,0.9265232974910395,1,['Period_band_r'],0.9029806138726164
+93,Jaccard,4,0.9253206643255648,0.9247311827956989,1,['Period_band_r'],0.9011538665890025
+94,Jaccard,5,0.9303841488462719,0.9301075268817204,1,['Period_band_r'],0.9081705027501005
+95,Jaccard,6,0.9314007842677712,0.9310035842293907,1,['Period_band_r'],0.9095325924462513
+96,Jaccard,7,0.9242355590429444,0.9238351254480287,1,['Period_band_r'],0.8997355813102855
+97,Jaccard,8,0.9281298654572325,0.9278673835125448,1,['Period_band_r'],0.9049663802822502
+98,Jaccard,9,0.921062048920954,0.9206989247311828,1,['Period_band_r'],0.8956097642437729
+99,Jaccard,10,0.9270977623791827,0.9265232974910395,1,['Period_band_r'],0.9031225662480497
+100,Lorentzian,1,0.8709456043785553,0.8696236559139785,3,"['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']",0.8338081018254988
+101,Lorentzian,2,0.8763206052030833,0.875,3,"['MHPS_ratio_r', 'Period_band_r', 'GP_DRW_tau_r']",0.8358360644993723
+102,Lorentzian,3,0.8726969388579529,0.8718637992831542,2,"['Period_band_r', 'IAR_phi_r']",0.8340023973334977
+103,Lorentzian,4,0.8866627451284056,0.8866487455197133,3,"['Period_band_r', 'AndersonDarling_r', 'IAR_phi_r']",0.852812521776376
+104,Lorentzian,5,0.8653000197229349,0.864247311827957,2,"['Period_band_r', 'IAR_phi_r']",0.8264266696967492
+105,Lorentzian,6,0.8620262812695132,0.8615591397849462,2,"['Period_band_r', 'GP_DRW_tau_r']",0.8204582245650033
+106,Lorentzian,7,0.8804513940216683,0.8794802867383512,3,"['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']",0.8453787340873817
+107,Lorentzian,8,0.8848984585603005,0.8839605734767025,2,"['Period_band_r', 'Eta_e_r']",0.8481172047450777
+108,Lorentzian,9,0.9090191448387545,0.9099462365591398,6,"['Period_band_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_6_r', 'Eta_e_r', 'IAR_phi_r']",0.882367641640924
+109,Lorentzian,10,0.8818755199790882,0.8812724014336918,2,"['Period_band_r', 'IAR_phi_r']",0.8450771661296119
+110,Marylandbridge,1,0.690351209638166,0.6904121863799283,19,"['MHPS_ratio_r', 'MHPS_high_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.5881774507146966
+111,Marylandbridge,2,0.7124522639715759,0.7123655913978495,17,"['MHPS_high_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Amplitude_r', 'Beyond1Std_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r', 'LinearTrend_r']",0.6166104143289737
+112,Marylandbridge,3,0.6963217164492279,0.6980286738351255,14,"['MHPS_low_r', 'Psi_eta_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r', 'LinearTrend_r']",0.5996485829760877
+113,Marylandbridge,4,0.8036567995154901,0.8024193548387096,24,"['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'StetsonK_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.7411792690221702
+114,Marylandbridge,5,0.700653907065589,0.7011648745519713,26,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.6024370653590729
+115,Marylandbridge,6,0.7533728709963616,0.7508960573476703,26,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'StetsonK_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.6745005051655456
+116,Marylandbridge,7,0.8060887757996292,0.8055555555555556,24,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'StetsonK_r', 'IAR_phi_r', 'LinearTrend_r']",0.7429273853875203
+117,Marylandbridge,8,0.7555493506250173,0.7549283154121864,30,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'StetsonK_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.6791994200424472
+118,Marylandbridge,9,0.7726159828195112,0.767921146953405,26,"['MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.6938296817643979
+119,Marylandbridge,10,0.7234112826187175,0.7222222222222222,26,"['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Skew_r', 'SmallKurtosis_r', 'StetsonK_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']",0.644059333505546
+120,Meehl,1,0.8274529546414726,0.8239247311827957,4,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Eta_e_r']",0.7694595123463852
+121,Meehl,2,0.8331051257856831,0.8297491039426523,4,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'AndersonDarling_r']",0.7772947381487979
+122,Meehl,3,0.8326440754079774,0.8306451612903226,4,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'SmallKurtosis_r']",0.7772703440541987
+123,Meehl,4,0.8426212185772719,0.8400537634408602,4,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'AndersonDarling_r']",0.7902586472704016
+124,Meehl,5,0.8425552952258648,0.8409498207885304,4,"['MHPS_ratio_r', 'Period_band_r', 'AndersonDarling_r', 'Eta_e_r']",0.7912929373954716
+125,Meehl,6,0.8151419311358356,0.8131720430107527,7,"['MHPS_ratio_r', 'Period_band_r', 'Harmonics_phase_2_r', 'Harmonics_phase_5_r', 'Eta_e_r', 'PercentAmplitude_r', 'SmallKurtosis_r']",0.7609727767228115
+126,Meehl,7,0.776080728409634,0.767921146953405,9,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Amplitude_r', 'AndersonDarling_r', 'Eta_e_r', 'Mean_r', 'PercentAmplitude_r', 'SmallKurtosis_r']",0.7124748869233842
+127,Meehl,8,0.8040817147613453,0.8015232974910395,4,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'AndersonDarling_r']",0.7387797152488687
+128,Meehl,9,0.8298684295159926,0.8275089605734767,7,"['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_2_r', 'Harmonics_phase_6_r', 'StetsonK_r']",0.7745239760007312
+129,Meehl,10,0.8519650977206155,0.8517025089605734,4,"['MHPS_ratio_r', 'Period_band_r', 'Eta_e_r', 'SmallKurtosis_r']",0.8080061943259038
+130,Motyka,1,0.9264283523287038,0.9260752688172043,1,['Period_band_r'],0.902850079023024
+131,Motyka,2,0.9310930362028931,0.9305555555555556,1,['Period_band_r'],0.9086960813109487
+132,Motyka,3,0.9284018228886661,0.9283154121863799,1,['Period_band_r'],0.9056728952622906
+133,Motyka,4,0.9242740200839409,0.9238351254480287,1,['Period_band_r'],0.9001461642072028
+134,Motyka,5,0.9237465243966037,0.9233870967741935,1,['Period_band_r'],0.8990639958158764
+135,Motyka,6,0.9210744682337714,0.9206989247311828,1,['Period_band_r'],0.8956713186091968
+136,Motyka,7,0.9287161058051283,0.9283154121863799,1,['Period_band_r'],0.9059189779796848
+137,Motyka,8,0.9317880367897375,0.9314516129032258,1,['Period_band_r'],0.9098822643058793
+138,Motyka,9,0.9308947069045423,0.9305555555555556,1,['Period_band_r'],0.9083599376583052
+139,Motyka,10,0.9317411086446452,0.9314516129032258,1,['Period_band_r'],0.9096625574446078
+140,Soergel,1,0.9222588513710676,0.921594982078853,1,['Period_band_r'],0.8964689721915374
+141,Soergel,2,0.9295110106777486,0.9292114695340502,1,['Period_band_r'],0.9065846642916656
+142,Soergel,3,0.9274230356940001,0.9269713261648745,1,['Period_band_r'],0.9039620021537346
+143,Soergel,4,0.9224368704503982,0.9220430107526881,1,['Period_band_r'],0.8974768532504663
+144,Soergel,5,0.9402235194788787,0.9399641577060932,5,"['MHPS_ratio_r', 'Period_band_r', 'GP_DRW_tau_r', 'PercentAmplitude_r', 'SmallKurtosis_r']",0.9203476411760223
+145,Soergel,6,0.9233637205343372,0.9229390681003584,1,['Period_band_r'],0.8984366425600775
+146,Soergel,7,0.9198324807002745,0.9193548387096774,1,['Period_band_r'],0.89370748129885
+147,Soergel,8,0.9229327381735206,0.9224910394265233,1,['Period_band_r'],0.8987518017636333
+148,Soergel,9,0.932580872235062,0.932347670250896,1,['Period_band_r'],0.9109102574116167
+149,Soergel,10,0.9223787420263089,0.921594982078853,3,"['Period_band_r', 'GP_DRW_tau_r', 'Harmonics_mag_7_r']",0.8962946811259507
+150,Wave_Hedges,1,0.9180041567203455,0.9175627240143369,1,['Period_band_r'],0.891485057553483
+151,Wave_Hedges,2,0.9223651245073159,0.9220430107526881,1,['Period_band_r'],0.8975848236963153
+152,Wave_Hedges,3,0.9243073552462022,0.9238351254480287,1,['Period_band_r'],0.8997119156177267
+153,Wave_Hedges,4,0.9197910161754268,0.9193548387096774,1,['Period_band_r'],0.8938999060182032
+154,Wave_Hedges,5,0.9270281785517833,0.9265232974910395,1,['Period_band_r'],0.903173210512373
+155,Wave_Hedges,6,0.9225702069452579,0.9220430107526881,1,['Period_band_r'],0.8973881923833236
+156,Wave_Hedges,7,0.9234595957158157,0.9229390681003584,1,['Period_band_r'],0.8987147513335684
+157,Wave_Hedges,8,0.9314466255553836,0.9310035842293907,1,['Period_band_r'],0.9091100958016881
+158,Wave_Hedges,9,0.9278019793606478,0.9274193548387096,1,['Period_band_r'],0.9047387759623287
+159,Wave_Hedges,10,0.9268058019408385,0.9265232974910395,1,['Period_band_r'],0.9034716757798713
+160,Kulczynski,1,0.9245189715014621,0.9238351254480287,1,['Period_band_r'],0.8996237894144119
+161,Kulczynski,2,0.9266260619688846,0.9260752688172043,1,['Period_band_r'],0.9026944994894768
+162,Kulczynski,3,0.9246998363471387,0.9242831541218638,1,['Period_band_r'],0.9003120614353068
+163,Kulczynski,4,0.9220691902209531,0.921594982078853,1,['Period_band_r'],0.8969238094270069
+164,Kulczynski,5,0.9252671656616832,0.9247311827956989,1,['Period_band_r'],0.901086115352917
+165,Kulczynski,6,0.9214304150721278,0.921146953405018,1,['Period_band_r'],0.896084881079907
+166,Kulczynski,7,0.9248579442916338,0.9242831541218638,1,['Period_band_r'],0.9002811332058233
+167,Kulczynski,8,0.9261823011789647,0.9256272401433692,1,['Period_band_r'],0.9022570981089976
+168,Kulczynski,9,0.9234655501620314,0.9229390681003584,1,['Period_band_r'],0.8987089597936746
+169,Kulczynski,10,0.9228351595639895,0.9224910394265233,1,['Period_band_r'],0.898094461583485
+170,Add_Chisq,1,0.9478335297493176,0.9475806451612904,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9303578061308208
+171,Add_Chisq,2,0.9433410912103077,0.943100358422939,2,"['Period_band_r', 'StetsonK_r']",0.9244295181811302
+172,Add_Chisq,3,0.9512889391526947,0.9511648745519713,3,"['Period_band_r', 'Psi_CS_r', 'Harmonics_phase_2_r']",0.9349072677437336
+173,Add_Chisq,4,0.9348736109796184,0.9345878136200717,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9129384308469854
+174,Add_Chisq,5,0.945538817356169,0.9453405017921147,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9272301156137126
+175,Add_Chisq,6,0.9407377997472421,0.9404121863799283,3,"['Period_band_r', 'Harmonics_phase_2_r', 'AndersonDarling_r']",0.9209250413258632
+176,Add_Chisq,7,0.9375119095795955,0.9372759856630825,3,"['Period_band_r', 'Harmonics_phase_2_r', 'Mean_r']",0.9164670805230481
+177,Add_Chisq,8,0.9404969356870081,0.9399641577060932,1,['Period_band_r'],0.9204063217054216
+178,Add_Chisq,9,0.9447107250465763,0.9444444444444444,2,"['Period_band_r', 'Harmonics_phase_2_r']",0.9263283910069839
+179,Add_Chisq,10,0.9325721331541915,0.931899641577061,1,['Period_band_r'],0.9099106585651524
