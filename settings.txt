@@ -5,7 +5,7 @@
       "c": ["CEP", "RR", "RRc", "DSCT"]
   },
   "classification_problem": {
-      "a": "one-vr-rest",
+      "a": "one-vs-rest",
       "b": "binary",
       "c": "multiclass"
   },
