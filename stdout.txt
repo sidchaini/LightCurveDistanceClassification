@@ -1,8 +1,8 @@
 ******************** Euclidean ********************
 Euclidean LCDC 1: Selected 4 features: ['Period_band_r', 'Psi_eta_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r']
-Euclidean LCDC 2: Selected 4 features: ['Period_band_r', 'Psi_eta_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r']
+Euclidean LCDC 2: Selected 3 features: ['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']
 Euclidean LCDC 1: F1 Score = 0.779
-Euclidean LCDC 2: F1 Score = 0.728
+Euclidean LCDC 2: F1 Score = 0.806
 ******************** Braycurtis ********************
 Braycurtis LCDC 1: Selected 1 features: ['Period_band_r']
 Braycurtis LCDC 2: Selected 1 features: ['Period_band_r']
@@ -10,34 +10,34 @@ Braycurtis LCDC 1: F1 Score = 0.959
 Braycurtis LCDC 2: F1 Score = 0.959
 ******************** Canberra ********************
 Canberra LCDC 1: Selected 2 features: ['Period_band_r', 'Harmonics_phase_2_r']
-Canberra LCDC 2: Selected 2 features: ['Period_band_r', 'Harmonics_phase_2_r']
+Canberra LCDC 2: Selected 3 features: ['Period_band_r', 'Harmonics_phase_2_r', 'Amplitude_r']
 Canberra LCDC 1: F1 Score = 0.958
-Canberra LCDC 2: F1 Score = 0.955
+Canberra LCDC 2: F1 Score = 0.939
 ******************** Cityblock ********************
 Cityblock LCDC 1: Selected 3 features: ['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']
-Cityblock LCDC 2: Selected 3 features: ['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']
+Cityblock LCDC 2: Selected 4 features: ['Period_band_r', 'GP_DRW_tau_r', 'Amplitude_r', 'IAR_phi_r']
 Cityblock LCDC 1: F1 Score = 0.809
-Cityblock LCDC 2: F1 Score = 0.847
+Cityblock LCDC 2: F1 Score = 0.810
 ******************** Chebyshev ********************
 Chebyshev LCDC 1: Selected 5 features: ['Period_band_r', 'Psi_eta_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r']
-Chebyshev LCDC 2: Selected 5 features: ['Period_band_r', 'Psi_eta_r', 'Harmonics_phase_3_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r']
+Chebyshev LCDC 2: Selected 2 features: ['Period_band_r', 'AndersonDarling_r']
 Chebyshev LCDC 1: F1 Score = 0.789
-Chebyshev LCDC 2: F1 Score = 0.697
+Chebyshev LCDC 2: F1 Score = 0.796
 ******************** Clark ********************
 Clark LCDC 1: Selected 4 features: ['Period_band_r', 'Harmonics_phase_2_r', 'Amplitude_r', 'Rcs_r']
-Clark LCDC 2: Selected 4 features: ['Period_band_r', 'Harmonics_phase_2_r', 'Amplitude_r', 'Rcs_r']
+Clark LCDC 2: Selected 3 features: ['Period_band_r', 'Amplitude_r', 'Rcs_r']
 Clark LCDC 1: F1 Score = 0.941
 Clark LCDC 2: F1 Score = 0.943
 ******************** Correlation ********************
 Correlation LCDC 1: Selected 20 features: ['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']
-Correlation LCDC 2: Selected 20 features: ['MHPS_ratio_r', 'MHPS_low_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']
+Correlation LCDC 2: Selected 19 features: ['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Eta_e_r', 'Gskew_r', 'Rcs_r', 'Skew_r', 'IAR_phi_r', 'LinearTrend_r']
 Correlation LCDC 1: F1 Score = 0.723
-Correlation LCDC 2: F1 Score = 0.706
+Correlation LCDC 2: F1 Score = 0.718
 ******************** Cosine ********************
 Cosine LCDC 1: Selected 9 features: ['MHPS_high_r', 'Period_band_r', 'Harmonics_mag_1_r', 'Harmonics_phase_5_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'IAR_phi_r']
-Cosine LCDC 2: Selected 9 features: ['MHPS_high_r', 'Period_band_r', 'Harmonics_mag_1_r', 'Harmonics_phase_5_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'IAR_phi_r']
+Cosine LCDC 2: Selected 14 features: ['MHPS_high_r', 'Period_band_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Amplitude_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'MedianBRP_r', 'Rcs_r', 'SF_ML_gamma_r', 'IAR_phi_r']
 Cosine LCDC 1: F1 Score = 0.784
-Cosine LCDC 2: F1 Score = 0.810
+Cosine LCDC 2: F1 Score = 0.759
 ******************** Hellinger ********************
 Hellinger LCDC 1: Selected 2 features: ['Period_band_r', 'Harmonics_phase_2_r']
 Hellinger LCDC 2: Selected 2 features: ['Period_band_r', 'Harmonics_phase_2_r']
@@ -50,19 +50,19 @@ Jaccard LCDC 1: F1 Score = 0.959
 Jaccard LCDC 2: F1 Score = 0.959
 ******************** Lorentzian ********************
 Lorentzian LCDC 1: Selected 3 features: ['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']
-Lorentzian LCDC 2: Selected 3 features: ['Period_band_r', 'Harmonics_phase_2_r', 'IAR_phi_r']
+Lorentzian LCDC 2: Selected 5 features: ['Period_band_r', 'GP_DRW_tau_r', 'Harmonics_phase_2_r', 'Amplitude_r', 'IAR_phi_r']
 Lorentzian LCDC 1: F1 Score = 0.827
-Lorentzian LCDC 2: F1 Score = 0.861
+Lorentzian LCDC 2: F1 Score = 0.848
 ******************** Marylandbridge ********************
 Marylandbridge LCDC 1: Selected 14 features: ['MHPS_low_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r']
-Marylandbridge LCDC 2: Selected 14 features: ['MHPS_low_r', 'Psi_eta_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_6_r', 'Harmonics_phase_7_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'IAR_phi_r']
+Marylandbridge LCDC 2: Selected 25 features: ['MHPS_ratio_r', 'MHPS_low_r', 'MHPS_high_r', 'GP_DRW_tau_r', 'Psi_CS_r', 'Psi_eta_r', 'Harmonics_mag_1_r', 'Harmonics_mag_7_r', 'Harmonics_phase_4_r', 'Harmonics_phase_5_r', 'Harmonics_phase_7_r', 'Amplitude_r', 'Autocor_length_r', 'Beyond1Std_r', 'Eta_e_r', 'Gskew_r', 'Mean_r', 'MedianBRP_r', 'PercentAmplitude_r', 'Rcs_r', 'Skew_r', 'SmallKurtosis_r', 'SF_ML_gamma_r', 'IAR_phi_r', 'LinearTrend_r']
 Marylandbridge LCDC 1: F1 Score = 0.610
-Marylandbridge LCDC 2: F1 Score = 0.613
+Marylandbridge LCDC 2: F1 Score = 0.636
 ******************** Meehl ********************
 Meehl LCDC 1: Selected 7 features: ['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Amplitude_r', 'Mean_r', 'Rcs_r', 'IAR_phi_r']
-Meehl LCDC 2: Selected 7 features: ['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Amplitude_r', 'Mean_r', 'Rcs_r', 'IAR_phi_r']
+Meehl LCDC 2: Selected 9 features: ['MHPS_ratio_r', 'Period_band_r', 'Psi_eta_r', 'Amplitude_r', 'Eta_e_r', 'Gskew_r', 'Rcs_r', 'SmallKurtosis_r', 'IAR_phi_r']
 Meehl LCDC 1: F1 Score = 0.712
-Meehl LCDC 2: F1 Score = 0.713
+Meehl LCDC 2: F1 Score = 0.678
 ******************** Motyka ********************
 Motyka LCDC 1: Selected 1 features: ['Period_band_r']
 Motyka LCDC 2: Selected 1 features: ['Period_band_r']
@@ -75,9 +75,9 @@ Soergel LCDC 1: F1 Score = 0.959
 Soergel LCDC 2: F1 Score = 0.959
 ******************** Wave_Hedges ********************
 Wave_Hedges LCDC 1: Selected 1 features: ['Period_band_r']
-Wave_Hedges LCDC 2: Selected 1 features: ['Period_band_r']
+Wave_Hedges LCDC 2: Selected 4 features: ['Period_band_r', 'Harmonics_mag_1_r', 'Harmonics_phase_2_r', 'IAR_phi_r']
 Wave_Hedges LCDC 1: F1 Score = 0.959
-Wave_Hedges LCDC 2: F1 Score = 0.959
+Wave_Hedges LCDC 2: F1 Score = 0.922
 ******************** Kulczynski ********************
 Kulczynski LCDC 1: Selected 1 features: ['Period_band_r']
 Kulczynski LCDC 2: Selected 1 features: ['Period_band_r']

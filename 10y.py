@@ -148,7 +148,7 @@ for metric in tqdm(all_metrics, desc="Metric", leave=True):
     feats_idx1, feats1 = utils.load_best_features(sfs_df1)
     print(f"{metric_str} LCDC 1: Selected {len(feats1)} features: {feats1}")
     
-    sfs_df2 = pd.read_csv(".tempres_df1.csv", index_col=0)
+    sfs_df2 = pd.read_csv(".tempres_df2.csv", index_col=0)
     feats_idx2, feats2 = utils.load_best_features(sfs_df2)
     print(f"{metric_str} LCDC 2: Selected {len(feats2)} features: {feats2}")
     
