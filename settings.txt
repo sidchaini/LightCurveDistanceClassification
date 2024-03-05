@@ -10,6 +10,8 @@
       "c": "multiclass"
   },
   "seed_choice": 44,
+  "central_stat" :"median",
+  "dispersion_stat": "iqr",
   "sns_dict": {
     "context": "paper",
     "style": "whitegrid",

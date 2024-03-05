@@ -1,6 +1,7 @@
 Feature Name,Relative Importance
+AndersonDarling_r,0.07696476964769647
 LinearTrend_r,0.0
-IAR_phi_r,0.0
+Harmonics_phase_7_r,0.0
 MHPS_low_r,0.0
 MHPS_high_r,0.0
 Period_band_r,0.0
@@ -13,9 +14,8 @@ Harmonics_phase_3_r,0.0
 Harmonics_phase_4_r,0.0
 Harmonics_phase_5_r,0.0
 Harmonics_phase_6_r,0.0
-Harmonics_phase_7_r,0.0
 Amplitude_r,0.0
-AndersonDarling_r,0.0
+IAR_phi_r,0.0
 Autocor_length_r,0.0
 Beyond1Std_r,0.0
 Eta_e_r,0.0

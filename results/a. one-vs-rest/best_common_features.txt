@@ -1,7 +1,4 @@
 [
   "Beyond1Std_r",
-  "Harmonics_phase_3_r",
-  "Skew_r",
-  "SmallKurtosis_r",
-  "Harmonics_phase_5_r"
+  "Skew_r"
 ]
