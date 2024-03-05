@@ -15,6 +15,7 @@ Harmonics_phase_5_r,0.0
 Harmonics_phase_6_r,0.0
 Harmonics_phase_7_r,0.0
 Amplitude_r,0.0
+AndersonDarling_r,0.0
 Autocor_length_r,0.0
 Beyond1Std_r,0.0
 Eta_e_r,0.0
@@ -28,4 +29,3 @@ StetsonK_r,0.0
 Pvar_r,0.0
 SF_ML_gamma_r,0.0
 MHPS_ratio_r,0.0
-AndersonDarling_r,-0.015718157181571796

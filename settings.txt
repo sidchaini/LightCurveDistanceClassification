@@ -11,7 +11,7 @@
   },
   "seed_choice": 44,
   "central_stat" :"median",
-  "dispersion_stat": "iqr",
+  "dispersion_stat": "std",
   "sns_dict": {
     "context": "paper",
     "style": "whitegrid",

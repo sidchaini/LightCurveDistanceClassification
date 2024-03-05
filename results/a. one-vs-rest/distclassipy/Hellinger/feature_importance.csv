@@ -1,7 +1,6 @@
 Feature Name,Relative Importance
-SF_ML_gamma_r,0.0159891598915989
-LinearTrend_r,0.002981029810298086
-Harmonics_phase_7_r,0.0
+LinearTrend_r,0.0
+IAR_phi_r,0.0
 MHPS_low_r,0.0
 MHPS_high_r,0.0
 Period_band_r,0.0
@@ -14,18 +13,19 @@ Harmonics_phase_3_r,0.0
 Harmonics_phase_4_r,0.0
 Harmonics_phase_5_r,0.0
 Harmonics_phase_6_r,0.0
+Harmonics_phase_7_r,0.0
 Amplitude_r,0.0
-IAR_phi_r,0.0
 AndersonDarling_r,0.0
 Autocor_length_r,0.0
 Beyond1Std_r,0.0
 Eta_e_r,0.0
+Gskew_r,0.0
 Mean_r,0.0
 PercentAmplitude_r,0.0
 Rcs_r,0.0
+Skew_r,0.0
+SmallKurtosis_r,0.0
 StetsonK_r,0.0
 Pvar_r,0.0
+SF_ML_gamma_r,0.0
 MHPS_ratio_r,0.0
-Gskew_r,-0.026016260162601633
-Skew_r,-0.026016260162601633
-SmallKurtosis_r,-0.06016260162601626

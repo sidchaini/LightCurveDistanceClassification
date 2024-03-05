@@ -1,10 +1,13 @@
 [
   "Psi_eta_r",
   "Rcs_r",
-  "Psi_CS_r",
-  "MHPS_ratio_r",
-  "Harmonics_mag_6_r",
-  "SF_ML_gamma_r",
+  "Autocor_length_r",
+  "Q31_r",
   "Harmonics_phase_3_r",
-  "LinearTrend_r"
+  "Amplitude_r",
+  "IAR_phi_r",
+  "SF_ML_gamma_r",
+  "Harmonics_mag_1_r",
+  "Harmonics_mag_6_r",
+  "MHPS_ratio_r"
 ]
