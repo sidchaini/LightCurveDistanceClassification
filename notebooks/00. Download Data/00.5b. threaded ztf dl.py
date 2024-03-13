@@ -45,38 +45,40 @@ numthreads = 200
 
 objlistarr = []
 for i in range(numthreads):
-    if i<numthreads-1:
-        objlistarr.append(oids[i*len(oids)//numthreads:(i+1)*len(oids)//numthreads])
+    if i < numthreads - 1:
+        objlistarr.append(
+            oids[i * len(oids) // numthreads : (i + 1) * len(oids) // numthreads]
+        )
     else:
-        objlistarr.append(oids[i*len(oids)//numthreads:])
-        
-        
-        
+        objlistarr.append(oids[i * len(oids) // numthreads :])
+
+
 def run_thread(thread_num):
     continue_flag = False
     sidobjlist = objlistarr[thread_num]
-    for i in tqdm(range(len(sidobjlist)),desc=f"Thread {thread_num}"):
+    for i in tqdm(range(len(sidobjlist)), desc=f"Thread {thread_num}"):
         o = sidobjlist[i]
-        r = subcatalog.loc[o,"RAdeg"]
-        d = subcatalog.loc[o,"DEdeg"]
-        
+        r = subcatalog.loc[o, "RAdeg"]
+        d = subcatalog.loc[o, "DEdeg"]
+
         if f"{o}_g.csv" not in os.listdir(dl_directory):
             url_g = f"https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+{r}+{d}+0.00028&BANDNAME=g&NOBS_MIN=10&BAD_CATFLAGS_MASK=32768&FORMAT=CSV"
-            file_g = wget.download(url_g,out=f"{dl_directory}/{o}_g.csv")
-        
+            file_g = wget.download(url_g, out=f"{dl_directory}/{o}_g.csv")
+
         if f"{o}_r.csv" not in os.listdir(dl_directory):
             url_r = f"https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+{r}+{d}+0.00028&BANDNAME=r&NOBS_MIN=10&BAD_CATFLAGS_MASK=32768&FORMAT=CSV"
-            file_r = wget.download(url_r,out=f"{dl_directory}/{o}_r.csv")
-            
+            file_r = wget.download(url_r, out=f"{dl_directory}/{o}_r.csv")
+
 
 import threading
+
 threads = []
 
 for i in range(numthreads):
     t = threading.Thread(target=run_thread, args=(i,))
     t.daemon = True
     threads.append(t)
-    
+
 for i in range(numthreads):
     threads[i].start()
 

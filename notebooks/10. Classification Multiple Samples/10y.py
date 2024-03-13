@@ -14,6 +14,7 @@ from sklearn.model_selection import cross_val_predict, train_test_split
 from sklearn.metrics import accuracy_score, f1_score, matthews_corrcoef
 import matplotlib.ticker as ticker
 import os
+
 os.chdir("../../")
 from pathlib import Path
 import json
@@ -61,36 +62,38 @@ y = y_df.to_numpy().ravel()
 with open(os.path.join("results", results_subfolder, "best_common_features.txt")) as f:
     best_common_features = json.load(f)
 
-all_metrics = settings_dict['all_metrics']
+all_metrics = settings_dict["all_metrics"]
 
 
 for metric in tqdm(all_metrics, desc="Metric", leave=True):
 
     metric_str = utils.get_metric_name(metric)
     print("*" * 20, metric_str, "*" * 20)
-    
+
     lcdc1 = dcpy.DistanceMetricClassifier(
-        metric=metric, scale=True, 
-        central_stat=settings_dict["central_stat"], 
+        metric=metric,
+        scale=True,
+        central_stat=settings_dict["central_stat"],
         dispersion_stat=settings_dict["dispersion_stat"],
-        calculate_kde=False, calculate_1d_dist=False
+        calculate_kde=False,
+        calculate_1d_dist=False,
     )
-    
+
     lcdc2 = dcpy.DistanceMetricClassifier(
-        metric=metric, scale=True, 
-        central_stat=settings_dict["central_stat"], 
+        metric=metric,
+        scale=True,
+        central_stat=settings_dict["central_stat"],
         dispersion_stat=settings_dict["dispersion_stat"],
-        calculate_kde=False, calculate_1d_dist=False
+        calculate_kde=False,
+        calculate_1d_dist=False,
     )
-    
-    
+
     X1, X2, y1, y2 = train_test_split(
-            X_df, y_df, test_size=0.5, stratify=y, random_state=settings_dict["seed_choice"]
-        )
-    
-    
+        X_df, y_df, test_size=0.5, stratify=y, random_state=settings_dict["seed_choice"]
+    )
+
     scoring = "f1_macro"
-    
+
     # Sequential Feature Selection first classifier
     feat_selector1 = SequentialFeatureSelector(
         lcdc1,
@@ -100,7 +103,7 @@ for metric in tqdm(all_metrics, desc="Metric", leave=True):
         n_jobs=-1,
         verbose=0,
     ).fit(X1, y1)
-    
+
     # Sequential Feature Selection second classifier
     feat_selector2 = SequentialFeatureSelector(
         lcdc2,
@@ -110,66 +113,59 @@ for metric in tqdm(all_metrics, desc="Metric", leave=True):
         n_jobs=-1,
         verbose=0,
     ).fit(X2, y2)
-    
-    
+
     res_df1 = pd.DataFrame.from_dict(feat_selector1.get_metric_dict()).T
     res_df1.index.name = "num_feats"
     res_df1["avg_score"] = res_df1["avg_score"].astype("float")
     res_df1 = res_df1.sort_values(by="avg_score", ascending=False)
     res_df1.to_csv(".tempres_df1.csv")
-    
+
     res_df2 = pd.DataFrame.from_dict(feat_selector2.get_metric_dict()).T
     res_df2.index.name = "num_feats"
     res_df2["avg_score"] = res_df2["avg_score"].astype("float")
     res_df2 = res_df2.sort_values(by="avg_score", ascending=False)
     res_df2.to_csv(".tempres_df2.csv")
-    
+
     # Reloading to
     sfs_df1 = pd.read_csv(".tempres_df1.csv", index_col=0)
     feats_idx1, feats1 = utils.load_best_features(sfs_df1)
     print(f"{metric_str} LCDC 1: Selected {len(feats1)} features: {feats1}")
-    
+
     sfs_df2 = pd.read_csv(".tempres_df2.csv", index_col=0)
     feats_idx2, feats2 = utils.load_best_features(sfs_df2)
     print(f"{metric_str} LCDC 2: Selected {len(feats2)} features: {feats2}")
-    
-    
+
     HIDDENy_df = pd.read_csv("data/HIDDENy_df_multiclass.csv", index_col=0)
     HIDDENX_df = pd.read_csv("data/HIDDENX_df_multiclass.csv", index_col=0)
-    
-    
+
     HIDDENX_df1 = HIDDENX_df.loc[:, feats1]
     HIDDENX_df1 = HIDDENX_df1.dropna()
     HIDDENy_df1 = HIDDENy_df.loc[HIDDENX_df1.index]
     HIDDENX1 = HIDDENX_df1.to_numpy()
     HIDDENy1 = HIDDENy_df1.to_numpy().ravel()
-    
+
     HIDDENX_df2 = HIDDENX_df.loc[:, feats2]
     HIDDENX_df2 = HIDDENX_df2.dropna()
     HIDDENy_df2 = HIDDENy_df.loc[HIDDENX_df2.index]
     HIDDENX2 = HIDDENX_df2.to_numpy()
     HIDDENy2 = HIDDENy_df2.to_numpy().ravel()
-    
+
     # assert (HIDDENX2 == HIDDENX2).all()
-    
-    lcdc1.fit(X1.loc[:,feats1].to_numpy(), y1)
-    lcdc2.fit(X2.loc[:,feats2].to_numpy(), y2)
-    
+
+    lcdc1.fit(X1.loc[:, feats1].to_numpy(), y1)
+    lcdc2.fit(X2.loc[:, feats2].to_numpy(), y2)
+
     HIDDENypred1 = lcdc1.predict(HIDDENX1)
     HIDDENypred2 = lcdc2.predict(HIDDENX2)
-    
-    
+
     acc1 = accuracy_score(y_true=HIDDENy1, y_pred=HIDDENypred1)
     f1score1 = f1_score(y_true=HIDDENy1, y_pred=HIDDENypred1, average="macro")
     matthew_coef1 = matthews_corrcoef(y_true=HIDDENy1, y_pred=HIDDENypred1)
-    
+
     print(f"{metric_str} LCDC 1: F1 Score = {f1score1:.3f}")
-    
+
     acc2 = accuracy_score(y_true=HIDDENy2, y_pred=HIDDENypred2)
     f1score2 = f1_score(y_true=HIDDENy2, y_pred=HIDDENypred2, average="macro")
     matthew_coef2 = matthews_corrcoef(y_true=HIDDENy2, y_pred=HIDDENypred2)
-    
+
     print(f"{metric_str} LCDC 2: F1 Score = {f1score2:.3f}")
-    
-    
-    
