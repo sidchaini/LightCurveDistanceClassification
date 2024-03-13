@@ -1,16 +1,16 @@
 {
   "classes_to_keep": {
-      "a": ["EA"],
-      "b": ["RSCVN", "BYDra"],
-      "c": ["CEP", "RR", "RRc", "DSCT"]
+    "a": ["EA"],
+    "b": ["RSCVN", "BYDra"],
+    "c": ["CEP", "RR", "RRc", "DSCT"]
   },
   "classification_problem": {
-      "a": "one-vs-rest",
-      "b": "binary",
-      "c": "multiclass"
+    "a": "one-vs-rest",
+    "b": "binary",
+    "c": "multiclass"
   },
   "seed_choice": 44,
-  "central_stat" :"median",
+  "central_stat": "median",
   "dispersion_stat": "std",
   "sns_dict": {
     "context": "paper",
@@ -25,5 +25,25 @@
       "figure.autolayout": false,
       "axes.edgecolor": ".15"
     }
-  }
+  },
+  "all_metrics": [
+    "euclidean",
+    "braycurtis",
+    "canberra",
+    "cityblock",
+    "chebyshev",
+    "clark",
+    "correlation",
+    "cosine",
+    "hellinger",
+    "jaccard",
+    "lorentzian",
+    "marylandbridge",
+    "meehl",
+    "motyka",
+    "soergel",
+    "wave_hedges",
+    "kulczynski",
+    "add_chisq"
+  ]
 }
