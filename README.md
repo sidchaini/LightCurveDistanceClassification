@@ -1,4 +1,4 @@
-# Repo
+# Repository Details
 
 This repository contains all the code (in the form of Jupyter Notebooks) to reproduce the results in our paper, "Light Curve Classification with DistClassiPy: a new distance-based classifier"
 
