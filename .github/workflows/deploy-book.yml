@@ -30,7 +30,7 @@ jobs:
     - name: Build the book
       shell: bash -l {0}
       run: |
-        jupyter-book build Book
+        jupyter-book build notebooks
 
     # Push the book's HTML to github-pages
     # Upload the book's HTML as an artifact
