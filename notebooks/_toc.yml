@@ -1,0 +1,80 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: ../README.md
+parts:
+  - caption: Notebooks
+    chapters:
+    - file: 01. Distance Metrics/01. Distance Metrics.ipynb
+      # sections:
+      # - file: L01-TimeScales/01-Timescales-template.ipynb
+    # - file: L02-GravityField/README.md
+    #   sections:
+    #   - file: L02-GravityField/02-GravityField-template.ipynb
+    #   - file: L02-GravityField/Slides.md
+    # - file: L03-HydroStaticEQ/README.md
+    #   sections:
+    #   - file: L03-HydroStaticEQ/03-HydroStaticEQ-template.ipynb
+    #   - file: L03-HydroStaticEQ/Slides.md
+    # - file: L04andL05-Polytropes/README.md
+    #   sections:
+    #   - file: L04andL05-Polytropes/04-Polytropes-template.ipynb
+    #   - file: L04andL05-Polytropes/Slides.md
+    # - file: L06-MeanMolecularWeight/README.md
+    #   sections:
+    #   - file: L06-MeanMolecularWeight/06-MeanMolecularWeight-template.ipynb
+    #   - file: L06-MeanMolecularWeight/Slides.md
+    # - file: L07andL08-Saha/README.md
+    #   sections:
+    #   - file: L07andL08-Saha/08-SahaEquations-template.ipynb
+    #   - file: L07andL08-Saha/Slides.md
+    # - file: L09-MeanFreePath/README.md
+    #   sections:
+    #   - file: L09-MeanFreePath/Slides.md    
+    # - file: L10-Absorption/README.md
+    #   sections:
+    #   - file: L10-Absorption/10-Absorption-template.ipynb
+    #   - file: L10-Absorption/Slides.md
+    # - file: L11-SourceFunction/README.md
+    #   sections:
+    #   - file: L11-SourceFunction/11-SourceFunction-template.ipynb
+    #   - file: L11-SourceFunction/Slides.md
+    # - file: L12-ThermalRadiation/README.md
+    #   sections:
+    #   - file: L12-ThermalRadiation/Slides.md
+    # - file: L13-FlatAtmospheres/README.md
+    #   sections:
+    #   - file: L13-FlatAtmospheres/Slides.md
+    # - file: L14-LimbDarkening/README.md
+    #   sections:
+    #   - file: L14-LimbDarkening/14-LimbDarkening-template.ipynb
+    #   - file: L14-LimbDarkening/Slides.md
+    # - file: L15-FluxInFlatAtm/README.md
+    #   sections:
+    #   - file: L15-FluxInFlatAtm/Slides.md
+    # - file: L16-AnalyticalEstimate/README.md
+    #   sections:
+    #   - file: L16-AnalyticalEstimate/Slides.md
+    # - file: L17-GreyAtmosphere/README.md
+    #   sections:
+    #   - file: L17-GreyAtmosphere/17-GreyAtmosphere-template.ipynb
+    #   - file: L17-GreyAtmosphere/Slides.md
+    # - file: L18-Interiors/README.md
+    #   sections:
+    #   - file: L18-Interiors/Slides.md
+    # - file: L19-Convection/README.md
+    #   sections:
+    #   - file: L19-Convection/19-Convection-template.ipynb
+    #   - file: L19-Convection/Slides.md
+    # - file: L21and22-NuclearEnergy/README.md
+    #   sections:
+    #   - file: L21and22-NuclearEnergy/22-NuclearEnergy-template.ipynb
+    #   - file: L21and22-NuclearEnergy/Slides.md
+    # - file: L23-Degeneracy/README.md
+    #   sections:
+    #   - file: L23-Degeneracy/23-Degeneracy-template.ipynb
+    #   - file: L23-Degeneracy/Slides.md
+    # - file: L24-RadiationPressure/README.md
+    #   sections:
+    #   - file: L24-RadiationPressure/Slides.md
